@@ -1,0 +1,28 @@
+html {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjZVBgJge0NgOHTb4k9KbEgQd-XNJx4-auKw&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size:100vw 100vh ;
+}
+input{
+    border-radius:0.35rem;
+    border-color: rgb(153, 179, 235);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+#Submit{
+    color: white;
+    background-color: rgb(72, 72, 156);
+    border: rgb(163, 163, 163) solid 1px;
+    border-radius: 7px;
+    margin: 12px;
+    width: 6rem;
+    height: 1.7rem;
+}
